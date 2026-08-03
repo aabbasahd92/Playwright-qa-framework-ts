@@ -10,10 +10,6 @@ test runner, covering the same three capability areas as the Python original:
 Page Object Model UI testing, REST API CRUD, and network-level service
 virtualization (mocking, fault injection, blocked requests).
 
-**Read [`SCOPE.md`](./SCOPE.md) first.** It draws a hard line between what this
-project honestly demonstrates (current, verified TypeScript/Playwright exposure)
-and what it does not (years of production TypeScript depth). That distinction
-matters for how this gets described on a resume or in an interview.
 
 ---
 
