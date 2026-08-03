@@ -59,25 +59,3 @@ exposure-only, GCP consumption vs. infrastructure provisioning, etc.).
   watched it go green." Run it on your own machine before an interview so you
   can speak to an actual pass/fail result, not just a compile check.
 
-## How to talk about this accurately
-
-**A good framing for a resume line or cover letter:**
-> "Ported representative modules of my existing Python/Playwright QA framework
-> to TypeScript on the native Playwright Test runner — Page Object Model,
-> REST API CRUD, and service virtualization via route interception — to
-> demonstrate current TypeScript/Playwright exposure alongside my primary
-> Python automation depth."
-
-**A good framing if asked directly in an interview ("How much TypeScript
-experience do you have?"):**
-> "My production depth is in Python/Playwright — that's what I've built and
-> maintained at scale. I have genuine, current TypeScript exposure: I ported
-> a representative slice of my own framework to TypeScript on Playwright Test
-> to make sure I could read, write, and reason about idiomatic TS in this
-> exact tool, and I'm comfortable extending it. I wouldn't claim years of
-> production TypeScript depth — that's a gap I'm actively closing, not
-> something I already have."
-
-That's the same honesty line you've held everywhere else in this job search —
-no fabricated skills, no inflated titles, no claiming exposure-only tools as
-production depth. Apply it here the same way.
