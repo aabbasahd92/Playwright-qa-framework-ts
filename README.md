@@ -115,12 +115,12 @@ That means:
 - **TypeScript compiles cleanly** (`npm run typecheck` passes, verified).
 - **Playwright discovers and lists all 17 tests correctly across all 3 browser
   projects** (`npm run test:list`, verified — 51 total test executions: 17 × 3 browsers).
-- **The API and UI tests have not been executed live from this sandbox** — the
+- **The API and UI tests have not been executed live from this sandbox** - the
   target sites (`saucedemo.com`, `jsonplaceholder.typicode.com`) and the
   Playwright browser-binary CDN were both blocked by the sandbox's network
   allowlist. Every test is a faithful, verified-by-compilation port of an
   original test that passes in the Python suite against the same live
   targets, but "compiles and is discovered correctly" is a different claim
   than "ran green here." Run `npm test` on your own machine to get a live
-  pass/fail result — this is expected to be a first-run pass given the direct
+  pass/fail result this is expected to be a first-run pass given the direct
   1:1 mapping from the working Python original.
