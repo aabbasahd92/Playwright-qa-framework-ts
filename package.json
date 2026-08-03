@@ -1,0 +1,24 @@
+{
+  "name": "playwright-qa-framework-ts",
+  "version": "1.0.0",
+  "description": "TypeScript port of aabbasahd92/Playwright-qa-framework -- Page Object Model, REST API CRUD, and service virtualization tests on the native Playwright Test runner.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:api": "playwright test tests/api-crud.spec.ts",
+    "test:list": "playwright test --list",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "typescript", "qa-automation", "sdet", "page-object-model"],
+  "author": "Ahmed Abbas",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  }
+}
