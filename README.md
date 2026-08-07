@@ -28,16 +28,11 @@ virtualization (mocking, fault injection, blocked requests).
 ├── .github/workflows/        CI workflow (GitHub Actions)
 └── tsconfig.json
 ```
+## Why 17 tests instead of 200+?
 
-## Why 17 tests, not all 200+
+This repository is a representative port rather than a one-to-one migration of the original framework. Like the JMeter and Azure DevOps examples, it demonstrates that the framework architecture, automation patterns, and engineering practices transfer cleanly without reproducing hundreds of near-identical tests.
 
-This is a **representative port**, matching the JMeter and Azure DevOps scaffolds
-built the same way: enough breadth to prove the pattern transfers cleanly across
-every category the original suite covers, without mechanically re-typing 200 tests
-that would demonstrate nothing additional. Each spec file's comment block states
-which original Python tests it drew from and why the rest were left out (usually:
-near-duplicate assertions on the same code path, e.g. 6 sort-direction variants
-where 2 already prove the pattern).
+The selected tests cover the major workflows and testing categories from the original suite. Where additional tests exercised the same code path (for example, multiple sort-direction variations with identical assertions), only representative scenarios were included. Each spec file documents which original Python tests it was derived from and the rationale for omitting equivalent cases.
 
 ## Prerequisites
 
