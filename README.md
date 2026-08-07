@@ -4,7 +4,7 @@ A TypeScript port of [`aabbasahd92/Playwright-qa-framework`](https://github.com/
 (the original Python/pytest framework: 200+ tests, 18 modules, 8 page objects,
 full REST API CRUD suite, service virtualization via `route()` interception).
 
-This is a real, runnable `@playwright/test` project — not a syntax demo. It ports
+This is a real, runnable `@playwright/test` project. It ports
 17 representative tests and 4 page objects to TypeScript on Playwright's native
 test runner, covering the same three capability areas as the Python original:
 Page Object Model UI testing, REST API CRUD, and network-level service
@@ -69,7 +69,7 @@ npm run test:headed       # watch the browser while tests run
 npm run test:ui           # Playwright's interactive UI mode — best for debugging
 npm run test:api          # API CRUD suite only (no browser needed)
 npm run test:list         # list all discoverable tests without running them
-npm run typecheck         # tsc --noEmit — verify the project compiles cleanly
+npm run typecheck         # tsc --noEmit - verify the project compiles cleanly
 ```
 
 After a run:
@@ -97,7 +97,7 @@ npm run report             # opens the HTML report (pass/fail, traces, screensho
   original — but it's idiomatic Playwright Test, not a line-by-line transliteration.
 - **`pytest.ini`'s multi-browser + parallel settings** map to `projects[]` and
   `workers` in `playwright.config.ts`.
-- **Route interception syntax is nearly 1:1** between Python and TypeScript —
+- **Route interception syntax is nearly 1:1** between Python and TypeScript -
   `page.route()`, `route.fulfill()`, `route.abort()` are the same API surface
   in both language bindings. This is the lowest-risk part of the port.
 - **The API CRUD suite intentionally keeps a documented API quirk** (JSONPlaceholder
@@ -108,7 +108,7 @@ npm run report             # opens the HTML report (pass/fail, traces, screensho
 
 ## Known limitation of this scaffold's validation
 
-This project was built and verified in a sandboxed environment without open
+This project was built and verified in a sandboxed environment. without open
 internet access to arbitrary domains (only package registries were reachable).
 That means:
 
