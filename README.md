@@ -102,7 +102,7 @@ npm run report             # opens the HTML report (pass/fail, traces, screensho
   in both language bindings. This is the lowest-risk part of the port.
 - **The API CRUD suite intentionally keeps a documented API quirk** (JSONPlaceholder
   returns `500` instead of `404` for `PUT` on a nonexistent resource) rather than
-  replacing it with a clean, textbook example — matching the original Python
+  replacing it with a clean, textbook example - matching the original Python
   suite's philosophy of testing what a system actually does, not just what a
   spec implies it should do.
 
@@ -114,7 +114,7 @@ That means:
 
 - **TypeScript compiles cleanly** (`npm run typecheck` passes, verified).
 - **Playwright discovers and lists all 17 tests correctly across all 3 browser
-  projects** (`npm run test:list`, verified — 51 total test executions: 17 × 3 browsers).
+  projects** (`npm run test:list`, verified - 51 total test executions: 17 × 3 browsers).
 - **The API and UI tests have not been executed live from this sandbox** - the
   target sites (`saucedemo.com`, `jsonplaceholder.typicode.com`) and the
   Playwright browser-binary CDN were both blocked by the sandbox's network
