@@ -101,7 +101,7 @@ npm run report             # opens the HTML report (pass/fail, traces, screensho
   suite's philosophy of testing what a system actually does, not just what a
   spec implies it should do.
 
-## Known limitation of this scaffold's validation
+## Current Validation Constraints
 
 This project was built and verified in a sandboxed environment. without open
 internet access to arbitrary domains (only package registries were reachable).
